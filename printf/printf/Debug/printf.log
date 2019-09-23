@@ -1,0 +1,6 @@
+﻿  printf.cpp
+H:\repos\printf\printf\printf.cpp(28,21): warning C4305:  'initializing': truncation from 'double' to 'float'
+H:\repos\printf\printf\printf.cpp(32,9): warning C4477:  'printf' : format string '%10.2f' requires an argument of type 'double', but variadic argument 1 has type 'int'
+H:\repos\printf\printf\printf.cpp(32,30): warning C4474:  'printf' : too many arguments passed for format string
+H:\repos\printf\printf\printf.cpp(32,30): message :  placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  printf.vcxproj -> H:\repos\printf\Debug\printf.exe

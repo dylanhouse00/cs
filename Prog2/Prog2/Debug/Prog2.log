@@ -1,0 +1,3 @@
+﻿  Prog2.cpp
+H:\repos\Prog2\Prog2\Prog2.cpp(12,6): warning C4101:  'fate': unreferenced local variable
+  Prog2.vcxproj -> H:\repos\Prog2\Debug\Prog2.exe
