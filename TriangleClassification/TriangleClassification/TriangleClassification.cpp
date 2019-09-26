@@ -47,36 +47,42 @@ int main()
 	/*
 			Calculations
 	*/
-	if (a == 60 && b == 60 && c == 60) {
-		result = 1;
-		if (a == 90 || b == 90 || c == 90) {
-			right = true;
-		}
-		if (a > 90 && b > 90 && c > 90) {
-			acute = true;
-		}
-	}
-	else if (a == b || a == c || b == c) {
-		result = 2;
-		if (a == 90 || b == 90 || c == 90) {
-			right = true;
-		}
-		if (a > 90 && b > 90 && c > 90) {
-			acute = true;
-		}
-	}
-	else if (a != b && a != c && b != c) {
-		result = 3;
-		if (a == 90 || b == 90 || c == 90) {
-			right = true;
-		}
-		if (a > 90 && b > 90 && c > 90) {
-			acute = true;
-		}
-	}
+	do {
+		do {
+			if (a == 60 && b == 60 && c == 60) {
+				result = 1;
+				if (a == 90 || b == 90 || c == 90) {
+					right = true;
+				}
+				if (a > 90 && b > 90 && c > 90) {
+					acute = true;
+				}
+			}
+
+
+			else if (a == b || a == c || b == c) {
+				result = 2;
+				if (a == 90 || b == 90 || c == 90) {
+					right = true;
+				}
+				if (a > 90 && b > 90 && c > 90) {
+					acute = true;
+				}
+			}
+			else if (a != b && a != c && b != c) {
+				result = 3;
+				if (a == 90 || b == 90 || c == 90) {
+					right = true;
+				}
+				if (a > 90 && b > 90 && c > 90) {
+					acute = true;
+				}
+			}
+		} while (a < 0 || b < 0 || c < 0);
+	} while (a + b + c != 180);
 
 	/*
-		Outputs
+			Outputs
 	*/
 	switch (result) {
 	case 1:
