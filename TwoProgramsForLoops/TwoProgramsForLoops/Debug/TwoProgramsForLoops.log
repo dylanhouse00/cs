@@ -1,0 +1,4 @@
+﻿  Divisors.cpp
+H:\repos\TwoProgramsForLoops\TwoProgramsForLoops\Divisors.cpp(13,6): warning C4101:  'array': unreferenced local variable
+H:\repos\TwoProgramsForLoops\TwoProgramsForLoops\Divisors.cpp(29,6): warning C4101:  'remainder': unreferenced local variable
+  TwoProgramsForLoops.vcxproj -> H:\repos\TwoProgramsForLoops\Debug\TwoProgramsForLoops.exe
